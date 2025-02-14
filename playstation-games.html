@@ -1,0 +1,101 @@
+<html>
+<head>
+	<link rel="stylesheet" href="default-css.css"> <!-- External CSS -->
+	<link rel="stylesheet" href="submenu-css.css"> <!-- Sub menu External CSS -->
+	<link rel="stylesheet" href="game-css.css"> <!-- Game External CSS -->
+    <title>Playstation-Games</title> <!-- Sets the title of the webpage -->
+    <style>
+        body {
+            background: url('Images/bg-ps.jpg') no-repeat center center fixed; /* Sets a background image and makes it fixed */
+            background-size: cover; /* Ensures the background image covers the entire screen */
+        }
+
+        /* Second Menu */
+        .sub-menu ul li:hover a {
+            color: #29C7F9; /* Changes color on hover */
+        }
+		.sub-menu ul li::after {
+            background-color: #29C7F9; /* Sets underline color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Images/logo.png" alt="Logo" class="logo"> <!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Home link -->
+                <li>
+                    <a href="Overview.html">Overview</a> <!-- Overview link -->
+                    <ul class="dropdown"> <!-- Dropdown menu -->
+                        <li><a href="History.html">Gaming History</a></li>
+                        <li><a href="Impact of Gaming.html">Impact of Gaming</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gaming-tools-home.html">Gaming Tools</a> <!-- Gaming tools link -->
+                    <ul class="dropdown"> <!-- Dropdown for gaming tools -->
+                        <li><a href="playstation-home.html">PlayStation</a></li>
+                        <li><a href="nintendo-home.html">Nintendo</a></li>
+                        <li><a href="xbox-home.html">Xbox</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact-us.html">Contact Us</a></li> <!-- Contact link -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Second Menu -->
+    <nav class="sub-menu">
+        <ul>
+            <li><a href="playstation-evolution.html">Evolution</a></li> |<!-- Evolution section -->
+            <li><a href="playstation-specs.html">Specs & Accessories</a></li> | <!-- Specs section -->
+            <li><a href="playstation-games.html" style="color: #29C7F9; font-weight: bold;">Games</a></li> <!-- Games section -->
+        </ul>
+    </nav>
+
+	<div class="game-container">
+        <div class="game-card">
+            <img src="Images/PlayStation/psAstroBot.jpg" alt="Astro-Bot">
+            <div class="game-title">Astro-Bot</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/PlayStation/psSpiderman2.jpg" alt="Spider-Man 2">
+            <div class="game-title">Spider-Man 2</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/PlayStation/psRatchet.png" alt="Ratchet & Clank: Rift Apart">
+            <div class="game-title">Ratchet & Clank: Rift Apart</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/PlayStation/psGranTurismo7.jpg" alt="Gran Turismo 7">
+            <div class="game-title">Gran Turismo 7</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/PlayStation/psHorizon.jpg" alt="Horizon Forbidden West">
+            <div class="game-title">Horizon Forbidden West</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/PlayStation/psGodofWarRagnarok.jpg" alt="God Of War: Ragnarok">
+            <div class="game-title">God Of War: Ragnarok</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/PlayStation/psBaldur.png" alt="Baldur's Gate 3">
+            <div class="game-title">Baldur's Gate 3</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/PlayStation/pswwe2k25.jpg" alt="WWE 2K25">
+            <div class="game-title">WWE 2K25</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/PlayStation/psMonsterHunterWilds.png" alt="Monster Hunter Wilds">
+            <div class="game-title">Monster Hunter Wilds</div>
+        </div>
+    </div>
+
+    <footer>
+        <img src="Images/logo.png" alt="Footer Logo" class="footer-logo"> <!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+		<a href="#top"><button id="topBtn"></button></a>
+    </footer>
+</body>
+</html>

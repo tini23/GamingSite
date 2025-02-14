@@ -1,0 +1,133 @@
+<html>
+<head>
+	<link rel="stylesheet" href="default-css.css"> <!-- External CSS -->
+    <title>History</title>
+    <style>
+        body {
+            background: url('Images/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+		.fancy-title {
+			font-size: 3rem;
+			font-weight: bold;
+			text-shadow: 4px 4px 15px rgba(255, 255, 0, 1), 
+						0px 0px 10px rgba(255, 255, 255, 0.8);
+			margin-top: 15vh;
+			color: #FFFF00; /* Brighter yellow */
+			text-align: center;
+		}
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: #222;
+            width: 80%;
+            max-width: 600px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 165, 0, 0.3);
+            text-align: left;
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .card h3 {
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 5px;
+            flex-shrink: 0;
+        }
+        .card-content {
+            flex-grow: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+		<img src="Images/logo.png" alt="Logo" class="logo"><!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="Overview.html">Overview</a>
+                    <ul class="dropdown">
+                        <li><a href="History.html">Gaming History</a></li>
+                        <li><a href="Impact of Gaming.html">Impact of Gaming</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gaming-tools-home.html">Gaming Tools</a>
+                    <ul class="dropdown">
+                        <li><a href="playstation-home.html">PlayStation</a></li>
+                        <li><a href="nintendo-home.html">Nintendo</a></li>
+                        <li><a href="xbox-home.html">Xbox</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+	<h1 class="fancy-title">The Evolution and Impact of Gaming</h1>
+    <div class="container">
+        <div class="card">
+            <img src="Images/hist1.png" alt="Origins of Video Gaming">
+            <div class="card-content">
+                <h3>Origins of Video Gaming</h3>
+                <p>Video games began in the 1950s with early experiments, such as 'Tennis for Two' in 1958, which set the stage for the evolution of interactive entertainment. The commercial success of 'Pong' in 1972 marked the birth of the gaming industry.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Images/hist2.png" alt="Rise of Arcade Gaming and Home Consoles">
+            <div class="card-content">
+                <h3>Rise of Arcade Gaming and Home Consoles</h3>
+                <p>The late 1970s and early 1980s saw arcade gaming flourish with iconic titles like 'Space Invaders' and the introduction of home consoles like the Atari 2600, transforming gaming into a social and accessible pastime.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Images/hist3.png" alt="Challenges and Resurgence in the 1980s">
+            <div class="card-content">
+                <h3>Challenges and Resurgence in the 1980s</h3>
+                <p>The gaming industry faced a crisis in the 1983 due to market oversaturation but rebounded with the Nintendo Entertainment System (NES), which emphasized quality control and launched significant franchises like 'Super Mario Bros.'</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Images/hist4.png" alt="Technological Transformations in the 1990s">
+            <div class="card-content">
+                <h3>Technological Transformations in the 1990s</h3>
+                <p>The 1990s introduced 3D graphics and complex gameplay with systems like the Sony PlayStation, changing the storytelling approach in games such as 'Final Fantasy VII' and 'Metal Gear Solid,' thus enriching player experiences.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Images/hist5.png" alt="The Rise of Online Gaming in the 2000s">
+            <div class="card-content">
+                <h3>The Rise of Online Gaming in the 2000s</h3>
+                <p>With the advent of online multiplayer gaming, consoles integrated Internet capabilities. Games like 'Halo 2' and 'World of Warcraft' revolutionized multiplayer experiences, allowing worldwide competition and collaboration.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Images/hist6.png" alt="Mainstream Popularity and Innovations">
+            <div class="card-content">
+                <h3>Mainstream Popularity and Innovations</h3>
+                <p>The 2010s marked a peak in gaming's mainstream appeal, highlighted by esports and the expansion of mobile gaming. Titles like 'Fortnite' and VR experiences showcased the industry's direction towards a more immersive and competitive landscape.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+		<img src="Images/logo.png" alt="Footer Logo" class="footer-logo"><!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+		<a href="#top"><button id="topBtn"></button></a>
+    </footer>
+</body>
+</html>

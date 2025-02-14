@@ -1,0 +1,83 @@
+<html>
+<head>
+	<link rel="stylesheet" href="default-css.css"> <!-- External CSS -->
+    <title>Playstation-Home</title>
+    <style>
+        body {
+            background: url('Images/gaming-tools-bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+		/* Gaming Tools Button Section */
+        .button-gallery {
+            display: flex; /* Use flexbox for layout */
+            justify-content: center; /* Center the images horizontally */
+            gap: 10px; /* Space between each image */
+            margin-top: 100px; /* Add top margin to separate from above content */
+        }
+        /* Gaming tool images styling */
+        .button-gallery img {
+            width: 300px; /* Set width for the images */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            border-radius: 10px; /* Rounded corners for the images */
+        }
+        /* Introduction section styling */
+        .intro {
+            margin: 60px auto; /* Center the section and add vertical margin */
+            max-width: 1000px; /* Maximum width for the intro section */
+            text-align: left; /* Left align text for better readability */
+            padding: 30px; /* Padding around the content */
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for contrast */
+            border-radius: 10px; /* Rounded corners for the section */
+        }
+    </style>
+	
+</head>
+<body>
+    <header>
+		<img src="Images/logo.png" alt="Logo" class="logo"><!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="Overview.html">Overview</a>
+                    <ul class="dropdown">
+                        <li><a href="History.html">Gaming History</a></li>
+                        <li><a href="Impact of Gaming.html">Impact of Gaming</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gaming-tools-home.html">Gaming Tools</a>
+                    <ul class="dropdown">
+                        <li><a href="playstation-home.html">PlayStation</a></li>
+                        <li><a href="nintendo-home.html">Nintendo</a></li>
+                        <li><a href="xbox-home.html">Xbox</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+	<section class="button-gallery">
+        <a href="playstation-home.html"><img src="Images/PlayStation/PS.png" alt="PlayStation"></a>
+        <a href="nintendo-home.html"><img src="Images/Nintendo/nintendo.png" alt="Nintendo"></a>
+        <a href="xbox-home.html"><img src="Images/Xbox/xbox.png" alt="Xbox"></a>
+    </section>
+    <section class="intro">
+        <h2>PlayStation 5, Nintendo Switch, and Xbox Series X: A Complete Comparison of the Three Top Consoles</h2>
+        <p>The world of gaming has never been more competitive, with Sony, Nintendo, and Microsoft each offering their own flagship consoles. The PlayStation 5 (PS5), Nintendo Switch, and Xbox Series X are currently the top players in the gaming industry, and each brings something unique to the table. Whether you're a hardcore gamer, a casual player, or someone looking for the best all-around entertainment device, it’s essential to understand what each console offers.</p>
+        <p>In this blog, we’ll compare the PlayStation 5, Nintendo Switch, and Xbox Series X based on their specs, pros and cons, popular games, and available accessories to help you choose the right one for you.</p>
+        <p>When deciding between the PlayStation 5, Nintendo Switch, and Xbox Series X, it all comes down to your gaming preferences:</p>
+        <ul>
+            <li>PS5 is the best choice for gamers who want the most visually impressive games, exclusive titles, and immersive controllers.</li>
+            <li>Nintendo Switch stands out for its portability, family-friendly games, and hybrid design, making it perfect for casual or on-the-go gaming.</li>
+            <li>Xbox Series X offers the most powerful hardware and excellent value with Xbox Game Pass, making it ideal for gamers who prioritize performance, backward compatibility, and access to a vast game library.</li>
+        </ul>
+        <p>Each console has its own strengths and caters to different types of gamers, so ultimately, the choice depends on what kind of gaming experience you're after.</p>
+    </section>	
+	<footer>
+        <img src="Images/logo.png" alt="Footer Logo" class="footer-logo"><!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+		<a href="#top"><button id="topBtn"></button></a>
+    </footer>
+</body>
+</html>

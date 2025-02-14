@@ -1,0 +1,392 @@
+<html>
+<head>
+	<link rel="stylesheet" href="default-css.css"> <!-- External CSS -->
+	<link rel="stylesheet" href="submenu-css.css"> <!-- Sub menu External CSS -->
+	<link rel="stylesheet" href="SpecsAccessories-css.css"> <!-- Specs Accessories External CSS -->
+    <title>Nintendo-Specs</title> <!-- Sets the title of the webpage -->
+    <style>
+        body {
+            background: url('Images/bg-nintendo.png') no-repeat center center fixed; /* Sets a background image and makes it fixed */
+            background-size: cover; /* Ensures the background image covers the entire screen */
+        }
+
+        /* Second Menu */
+        .sub-menu ul li:hover a {
+            color: #FF0000; /* Changes color on hover */
+        }
+		.sub-menu ul li::after {
+            background-color: #FF0000; /* Sets underline color */
+        }
+		
+		/* Comparison Table */
+        th {
+            background-color: #FF0000;
+		}
+		h1, h2, h3 {
+			color: #FF0000;
+		}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Images/logo.png" alt="Logo" class="logo"> <!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Home link -->
+                <li>
+                    <a href="Overview.html">Overview</a> <!-- Overview link -->
+                    <ul class="dropdown"> <!-- Dropdown menu -->
+                        <li><a href="History.html">Gaming History</a></li>
+                        <li><a href="Impact of Gaming.html">Impact of Gaming</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gaming-tools-home.html">Gaming Tools</a> <!-- Gaming tools link -->
+                    <ul class="dropdown"> <!-- Dropdown for gaming tools -->
+                        <li><a href="playstation-home.html">PlayStation</a></li>
+                        <li><a href="nintendo-home.html">Nintendo</a></li>
+                        <li><a href="xbox-home.html">Xbox</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact-us.html">Contact Us</a></li> <!-- Contact link -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Second Menu -->
+    <nav class="sub-menu">
+        <ul>
+            <li><a href="nintendo-evolution.html">Evolution</a></li> |<!-- Evolution section -->
+            <li><a href="nintendo-specs.html" style="color: #FF0000; font-weight: bold;">Specs & Accessories</a></li> | <!-- Specs section -->
+            <li><a href="nintendo-games.html">Games</a></li> <!-- Games section -->
+        </ul>
+    </nav>
+	
+	<!-- Comparison Table -->
+		<h1>Specs Comparison</h1>
+		<h2>Home and Hybrid Consoles</h2>
+		<table>
+            <thead>
+                <tr>
+                    <th>Console</th>
+					<th>Image</th>
+					<th>Release Year</th>
+					<th>Type</th>
+					<th>CPU</th>
+					<th>Storage</th>
+					<th>Display</th>
+					<th>Backward Compatibility</th>
+					<th>Notable Features</th>
+                </tr>
+            </thead>
+            <tbody>
+				<tr>
+                    <td><strong>Nintendo Entertainment System (NES)</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/ns2.jpg" alt="NES"></td>
+					<td>1983 (JP), 1985 (NA)</td>
+					<td>Home</td>
+					<td>Ricoh 8-bit</td>
+					<td>Cartridge</td>
+					<td>N/A</td>
+					<td>No</td>
+					<td>Classic 8-bit gaming</td>
+					
+                </tr>
+                <tr>
+                    <td><strong>Super Nintendo Entertainment System (SNES)</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/ns3.jpg" alt="SNES"></td>
+					<td>1990 (JP), 1991 (NA)</td>
+					<td>Home</td>
+					<td>Ricoh 16-bit</td>
+					<td>Cartridge</td>
+					<td>N/A</td>
+					<td>No</td>
+					<td>16-bit graphics, Mode 7 effects</td>
+					
+                </tr>				
+                <tr>
+                    <td><strong>Nintendo 64 (N64)</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/ns4.jpg" alt="N64"></td>
+					<td>1996</td>
+					<td>Home</td>
+					<td>64-bit NEC VR4300</td>
+					<td>Cartridge</td>
+					<td>N/A</td>
+					<td>No</td>
+					<td>First 3D Nintendo console, analog stick</td>
+                </tr>
+                <tr>
+                    <td><strong>GameCube</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/ns5.jpg" alt="GameCube"></td>
+					<td>2001</td>
+					<td>Home</td>
+					<td>IBM PowerPC Gekko</td>
+					<td>Mini DVD</td>
+					<td>N/A</td>
+					<td>No</td>
+					<td>Compact disc-based console</td>
+                </tr>
+                <tr>
+                    <td><strong>Wii</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/nWii.png" alt="NES"></td>
+					<td>2006</td>
+					<td>Home</td>
+					<td>IBM PowerPC Broadway</td>
+					<td>512MB flash</td>
+					<td>N/A</td>
+					<td>Yes (GameCube)</td>
+					<td>Motion controls, Wii Remote</td>
+                </tr>
+                <tr>
+                    <td><strong>Wii U</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/nWii U.png" alt="NES"></td>
+					<td>2012</td>
+					<td>Home</td>
+					<td>IBM PowerPC Espresso</td>
+					<td>8GB/32GB</td>
+					<td>6.2" 854×480</td>
+					<td>Yes (Wii)</td>
+					<td>GamePad controller, dual-screen gameplay</td>
+                </tr>
+                <tr>
+                    <td><strong>Nintendo Switch</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/Nintendo Switch.png" alt="Nintendo Switch"></td>
+					<td>2017</td>
+					<td>Hybrid</td>
+					<td>NVIDIA Tegra X1</td>
+					<td>32GB (expandable)</td>
+					<td>6.2" 1280×720</td>
+					<td>No</td>
+					<td>Hybrid console (dockable and handheld)</td>
+                </tr>
+                <tr>
+                    <td><strong>Nintendo Switch Lite</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/Nintendo Switch Lite.png" alt="Lite"></td>
+					<td>2019</td>
+					<td>Handheld</td>
+					<td>NVIDIA Tegra X1</td>
+					<td>32GB (expandable)</td>
+					<td>5.5" 1280×720</td>
+					<td>No</td>
+					<td></td>
+                </tr>
+                <tr>
+                    <td><strong>Nintendo Switch OLED</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/noled.png" alt="Oled"></td>
+					<td>2021</td>
+					<td>Hybrid</td>
+					<td>NVIDIA Tegra X1</td>
+					<td>32GB (expandable)</td>
+					<td>7" OLED 1280×720</td>
+					<td>No</td>
+					<td></td>
+                </tr>
+            </tbody>
+        </table>
+		
+		<h2>Handheld Consoles</h2>
+		<table>
+            <thead>
+                <tr>
+                    <th>Console</th>
+					<th>Image</th>
+					<th>Release Year</th>
+					<th>Type</th>
+					<th>CPU</th>
+					<th>Storage</th>
+					<th>Display</th>
+					<th>Backward Compatibility</th>
+					<th>Notable Features</th>
+                </tr>
+            </thead>
+            <tbody>
+				<tr>
+					<td><strong>Game Boy</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/ngameboy.png" alt="GameBoy"></td>
+					<td>1989</td>
+					<td>Handheld</td>
+					<td>8-bit Sharp LR35902</td>
+					<td>Cartridge</td>
+					<td>Monochrome 160×144</td>
+					<td>No</td>
+					<td>First Nintendo handheld</td>
+                </tr>
+				<tr>
+					<td><strong>Game Boy Color</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/ngameboy color.png" alt="Game Boy Color"></td>
+					<td>1998</td>
+					<td>Handheld</td>
+					<td>8-bit Sharp LR35902</td>
+					<td>Cartridge</td>
+					<td>Color 160×144</td>
+					<td>Yes (Game Boy)</td>
+					<td>Color screen</td>
+                </tr>
+				<tr>
+					<td><strong>Game Boy Advance (GBA)</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/ngameboy advance.png" alt="Advance"></td>
+					<td>2001</td>
+					<td>Handheld</td>
+					<td>32-bit ARM7TDMI</td>
+					<td>Cartridge</td>
+					<td>240×160</td>
+					<td>Yes (GB, GBC)</td>
+					<td>More powerful 2D games</td>
+                </tr>
+				<tr>
+					<td><strong>Nintendo DS</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/nintendods.png" alt="DS"></td>
+					<td>2004</td>
+					<td>Handheld</td>
+					<td>67MHz ARM9 + 33MHz ARM7</td>
+					<td>Cartridge</td>
+					<td>Dual 256×192 screens</td>
+					<td>Yes (GBA)</td>
+					<td>Dual screens, touchscreen</td>
+                </tr>
+				<tr>
+					<td><strong>Nintendo DS Lite</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/ndslite.jpg" alt="DS Lite"></td>
+					<td>2006</td>
+					<td>Handheld</td>
+					<td>67MHz ARM9 + 33MHz ARM7</td>
+					<td>Cartridge</td>
+					<td>Dual 256×192 screens</td>
+					<td>Yes (GBA)</td>
+					<td>Slimmer DS redesign</td>
+                </tr>
+				<tr>
+					<td><strong>Nintendo DSi</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/ndsi.jpg" alt="DSi"></td>
+					<td>2008</td>
+					<td>Handheld</td>
+					<td>133MHz ARM9 + 33MHz ARM7</td>
+					<td>Cartridge</td>
+					<td>Dual 256×192 screens</td>
+					<td>No</td>
+					<td>Digital store, cameras</td>
+                </tr>
+				<tr>
+					<td><strong>Nintendo 3DS</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/n3ds.png" alt="3DS"></td>
+					<td>2011</td>
+					<td>Handheld</td>
+					<td>Dual-Core ARM11</td>
+					<td>Cartridge</td>
+					<td>3D 400×240 (top), 320×240 (bottom)</td>
+					<td>Yes (DS)</td>
+					<td>Glasses-free 3D display</td>
+                </tr>
+				<tr>
+					<td><strong>Nintendo 3DS XL</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/n3dsXL.jpg" alt="3DS XL"></td>
+					<td>2012</td>
+					<td>Handheld</td>
+					<td>Dual-Core ARM11 </td>
+					<td>Cartridge</td>
+					<td>4.88" 3D 400×240 (top), 320×240 (bottom)</td>
+					<td>Yes (DS)</td>
+					<td>Larger screen</td>
+                </tr>
+				<tr>
+					<td><strong>New Nintendo 3DS</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/NewNintendo3DS.png" alt="NewNintendo3DS"></td>
+					<td>2014</td>
+					<td>Handheld</td>
+					<td>Quad-Core ARM11</td>
+					<td>Cartridge</td>
+					<td>3D 400×240 (top), 320×240 (bottom)</td>
+					<td>Yes (DS)</td>
+					<td>Faster CPU, extra buttons</td>
+                </tr>
+				<tr>
+					<td><strong>Nintendo 2DS</strong></td>
+					<td style="background-color: rgba(0, 0, 0, 0.5);"><img src="Images/Nintendo/n2DS.jpg" alt="2DS"></td>
+					<td>2013</td>
+					<td>Handheld</td>
+					<td>Dual-Core ARM11</td>
+					<td>Cartridge</td>
+					<td>400×240 (top), 320×240 (bottom)</td>
+					<td>Yes (DS)</td>
+					<td>No 3D effect, budget-friendly</td>
+                </tr>
+            </tbody>
+        </table>
+	
+	<!-- Pros and Cons Section -->
+    <h2>Pros & Cons</h2>
+	<div class="pros-cons">
+        <div class="pros">
+            <h4>Pros</h4>
+            <ul>
+                <li><strong>Portability: </strong> The hybrid design allows you to play at home on the TV or take the console on the go. This flexibility makes the Switch ideal for traveling or casual gaming. </li>
+				<li><strong>Exclusive games: </strong> Nintendo’s exclusive lineup is unmatched, with classics like The Legend of Zelda: Breath of the Wild, Super Mario Odyssey, and Animal Crossing: New Horizons. </li>
+				<li><strong>Local multiplayer: </strong> The Joy-Con controllers allow for easy local multiplayer gaming, making it perfect for family-friendly or social gaming. </li>
+				<li><strong>Affordable: </strong> The Switch is the least expensive of the three consoles, making it more accessible to a broader audience. </li>
+				<li><strong>Unique design: </strong> The ability to switch between handheld and docked mode makes the Switch stand out as a one-of-a-kind console. </li>
+            </ul>
+        </div>
+        <div class="cons">
+            <h4>Cons</h4>
+            <ul>
+                <li><strong>Lower graphical performance: </strong> While great for portable gaming, the Switch can’t compete with the PS5 or Xbox Series X in terms of graphics, especially when docked. </li>
+				<li><strong>Limited third-party support: </strong> Many high-end third-party games (like Call of Duty or Cyberpunk 2077) aren’t available on the Switch, and the console often struggles with ports of graphically demanding games. </li>
+				<li><strong>Joy-Con drift: </strong> Some users experience issues with the Joy-Con controllers, particularly “drift,” where the controls register movement even when you’re not touching them. </li>
+			</ul>
+        </div>
+    </div>
+	
+	<div class="container">
+        <h2>Accessories</h2>
+        <div class="grid">
+            <div class="accessory">
+                <img src="Images/Nintendo/ns-Joy-Con Controllers.png" alt="Joy-Con Controllers"><!-- https://www.nintendo.com/us/store/products/joy-con-l-r-pastel-pink-120776/ -->
+                <div class="text">
+                    <h3>Joy-Con Controllers</h3>
+                    <p>Detachable controllers for handheld mode or local multiplayer gaming.</p>
+                </div>
+            </div>
+            <div class="accessory">
+                <img src="Images/Nintendo/ns-Pro Controller.png" alt="Pro Controller"><!-- https://www.nintendo.com/us/store/products/pro-controller/ -->
+                <div class="text">
+                    <h3>Pro Controller</h3>
+                    <p>A more traditional controller for those who prefer a classic gaming experience.</p>
+                </div>
+            </div>
+            <div class="accessory">
+                <img src="Images/Nintendo/ns-Switch Dock.png" alt="Nintendo Switch Dock"><!-- https://www.nintendo.com/us/store/products/nintendo-switch-dock-105663/ -->
+                <div class="text">
+                    <h3>Nintendo Switch Dock</h3>
+                    <p>To connect the Switch to your TV for full-screen gaming.</p>
+                </div>
+            </div>
+            <div class="accessory">
+                <img src="Images/Nintendo/ns-Joy-Con Charging Grip.jpg" alt="Joy-Con Charging Grip"><!-- https://www.nintendo.com/ph/hardware/switch/accessories/index.html -->
+                <div class="text">
+                    <h3>Joy-Con Charging Grip</h3>
+                    <p>Allows you to charge Joy-Con controllers while playing.</p>
+                </div>
+            </div>
+            <div class="accessory">
+                <img src="Images/Nintendo/ns-Ring Fit Adventure.png" alt="Ring Fit Adventure"><!-- https://www.nintendo.com/my/switch/al3p/index.html -->
+                <div class="text">
+                    <h3>Ring Fit Adventure</h3>
+                    <p>A fitness accessory that turns exercise into a fun game.</p>
+                </div>
+            </div>
+            <div class="accessory">
+                <img src="Images/Nintendo/ns-Labo VR Kit.jpg" alt="Nintendo Labo VR Kit"><!-- https://www.nintendo.com/my/switch/adfx/index.html -->
+                <div class="text">
+                    <h3>Nintendo Labo VR Kit</h3>
+                    <p>DIY virtual reality experience with cardboard creations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <img src="Images/logo.png" alt="Footer Logo" class="footer-logo"> <!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+		<a href="#top"><button id="topBtn"></button></a>
+    </footer>
+</body>
+</html>

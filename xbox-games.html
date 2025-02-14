@@ -1,0 +1,110 @@
+<html>
+<head>
+	<link rel="stylesheet" href="default-css.css"> <!-- External CSS -->
+	<link rel="stylesheet" href="submenu-css.css"> <!-- Sub menu External CSS -->
+	<link rel="stylesheet" href="game-css.css"> <!-- Game External CSS -->
+    <title>Xbox-Games</title> <!-- Sets the title of the webpage -->
+    <style>
+        body {
+            background: url('Images/bg-xbox.jpg') no-repeat center center fixed; /* Sets a background image and makes it fixed */
+            background-size: cover; /* Ensures the background image covers the entire screen */
+        }
+        /* Second Menu */
+        .sub-menu ul li:hover a {
+            color: #4EA72E; /* Changes color on hover */
+        }
+		.sub-menu ul li::after {
+            background-color: #4EA72E; /* Sets underline color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Images/logo.png" alt="Logo" class="logo"> <!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Home link -->
+                
+				<li>
+                    <a href="Overview.html">Overview</a> <!-- Overview link -->
+					<!-- Dropdown Menu - Overview -->                    
+					<ul class="dropdown"> <!-- Dropdown menu -->
+                        <li><a href="History.html">Gaming History</a></li>
+                        <li><a href="Impact of Gaming.html">Impact of Gaming</a></li>
+                    </ul>
+                </li>
+				
+                <li>
+                    <a href="gaming-tools-home.html">Gaming Tools</a> <!-- Gaming tools link -->
+                    <!-- Dropdown Menu - Gaming Tools -->
+					<ul class="dropdown"> <!-- Dropdown for gaming tools -->
+                        <li><a href="playstation-home.html">PlayStation</a></li>
+                        <li><a href="nintendo-home.html">Nintendo</a></li>
+                        <li><a href="xbox-home.html">Xbox</a></li>
+                    </ul>
+                </li>
+                
+				<li><a href="contact-us.html">Contact Us</a></li> <!-- Contact link -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Second Menu -->
+    <nav class="sub-menu">
+        <ul>
+            <li><a href="xbox-evolution.html">Evolution</a></li> |<!-- Evolution section -->
+            <li><a href="xbox-specs.html">Specs & Accessories</a></li> | <!-- Specs section -->
+            <li><a href="xbox-games.html" style="color: #4EA72E; font-weight: bold;">Games</a></li> <!-- Games section -->
+        </ul>
+    </nav>
+	
+	<div class="game-container">
+        <div class="game-card">
+            <img src="Images/Xbox/xHalo Infinite.png" alt="Halo Infinite">
+            <div class="game-title">Halo Infinite</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Xbox/xfable.png" alt="Fable">
+            <div class="game-title">Fable</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Xbox/xForza Horizon 5.png" alt="Forza Horizon 5">
+            <div class="game-title">Forza Horizon 5</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Xbox/xGears of War.png" alt="Gears of War">
+            <div class="game-title">Gears of War</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Xbox/xForza Motorsport.png" alt="Forza Motorsport">
+            <div class="game-title">Forza Motorsport</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Xbox/xStarfield.png" alt="Starfield">
+            <div class="game-title">Starfield</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Xbox/xS.T.A.L.K.E.R. 2.jpg" alt="S.T.A.L.K.E.R. 2: Heart of Chernobyl">
+            <div class="game-title">S.T.A.L.K.E.R. 2: Heart of Chernobyl</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Xbox/xSea of Thieves.png" alt="Sea of Thieves">
+            <div class="game-title">Sea of Thieves</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Xbox/xHellblade.png" alt="Hellblade II">
+            <div class="game-title">Hellblade II: Senua’s Saga</div>
+        </div>
+		<div class="game-card">
+            <img src="Images/Xbox/xAvowed.jpeg" alt="Avowed">
+            <div class="game-title">Avowed</div>
+        </div>
+    </div>
+	
+	<!-- Footer -->
+    <footer>
+        <img src="Images/logo.png" alt="Footer Logo" class="footer-logo"> <!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+		<a href="#top"><button id="topBtn"></button></a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<html>
+<head>
+	<link rel="stylesheet" href="default-css.css"> <!-- External CSS -->
+    <title>Overview</title>
+    <style>
+        body {
+            background: url('Images/background.jpg') no-repeat center center fixed;
+			background-size: cover;
+        }
+
+		.menu-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+			margin-top: 15vh;			
+        }
+        .menu-item {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 10px;
+			display: block;
+			text-decoration: none; /* Removes default underline */
+			color: inherit; /* Keeps text color the same */
+        }
+        .menu-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+			transition: all 0.3s ease-in-out;
+        }
+		.menu-item::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            border-radius: 10px;
+        }
+        .menu-item:hover::before {
+            opacity: 1;
+        }
+        .menu-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #444;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .brief {
+            margin: 50px auto;
+            max-width: 1500px;
+            text-align: left;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+			font-size: 1.3rem;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+		<img src="Images/logo.png" alt="Logo" class="logo"><!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="Overview.html">Overview</a>
+                    <ul class="dropdown">
+                        <li><a href="History.html">Gaming History</a></li>
+                        <li><a href="Impact of Gaming.html">Impact of Gaming</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gaming-tools-home.html">Gaming Tools</a>
+                    <ul class="dropdown">
+                        <li><a href="playstation-home.html">PlayStation</a></li>
+                        <li><a href="nintendo-home.html">Nintendo</a></li>
+                        <li><a href="xbox-home.html">Xbox</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+	<div class="menu-container">
+        <a href="History.html" class="menu-item">
+			<img src="Images/gaming history.png" alt="HISTORY">
+			<span class="menu-button">HISTORY</span>
+		</a>
+        <a href="What Makes Gaming Fun.html" class="menu-item">
+			<img src="Images/game fun.png" alt="What Makes Gaming Fun">
+			<span class="menu-button">WHAT MAKES GAMING FUN</span>
+		</a>
+		<a href="Impact of Gaming.html" class="menu-item">
+			<img src="Images/impact gaming.png" alt="Impact">
+			<span class="menu-button">IMPACT</span>
+		</a>
+    </div>
+	
+	<section class="brief">
+		<p><strong>Gaming is the act of playing electronic or video games on various platforms, including consoles, PCs, and mobile devices. 
+		It has evolved from simple arcade games in the 1970s to a massive global industry with diverse genres such as action, 
+		strategy, role-playing, and simulation. Modern gaming includes online multiplayer experiences, virtual reality (VR), and 
+		esports competitions. It also serves as a form of entertainment, social interaction, and even professional careers 
+		through streaming and game development.</strong></p>
+	</section>
+	<footer>
+        <img src="Images/logo.png" alt="Footer Logo" class="footer-logo"><!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+    </footer>
+</body>
+</html>

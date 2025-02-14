@@ -1,0 +1,119 @@
+<html>
+<head>
+	<link rel="stylesheet" href="default-css.css"> <!-- External CSS -->
+	<title>Gaming Homepage</title>
+	<style>
+		/* Body styling: background, font, fade-in animation, etc. */
+		body {
+            background: url('Images/background.jpg') no-repeat center center fixed;
+			background-size: cover;
+        }
+
+        /* Welcome Section */
+        .welcome-container {
+            position: relative; /* Create a positioning context for overlay and text */
+            width: 100%; /* Full width container */
+            max-height: 400px; /* Limit maximum height */
+            overflow: hidden; /* Hide any overflowing content */
+			margin: 100px auto 20px auto; /* Vertical margin for spacing */
+        }
+        /* Welcome image styling */
+        .welcome-container img {
+            width: 100%; /* Make image span full container width */
+            height: 400px; /* Set image height */
+            object-fit: cover; /* Ensure image covers container without distortion */
+        }
+        /* Transparent shadow effect overlay */
+        .overlay {
+            position: absolute; /* Position overlay absolutely over the image */
+            top: 0; /* Align overlay to the top */
+            left: 0; /* Align overlay to the left */
+            width: 100%; /* Overlay spans full width */
+            height: 100%; /* Overlay spans full height */
+            background: rgba(0, 0, 0, 0.6); /* Transparent shadow effect */
+        }
+        /* Welcome text styling positioned over the image */
+        .welcome-text {
+            position: absolute; /* Absolute positioning within welcome-container */
+            top: 50%; /* Vertically center the text */
+            left: 50%; /* Horizontally center the text */
+            transform: translate(-50%, -50%); /* Adjust position to exactly center the text */
+            color: white; /* Set text color to white for contrast */
+            text-align: center; /* Center align the text */
+            z-index: 2; /* Ensure text appears above the overlay */
+        }
+        /* Welcome heading styling */
+        .welcome-text h1 {
+            font-size: 40px; /* Set font size for the heading */
+            margin: 0; /* Remove default margin */
+        }
+        /* Welcome paragraph styling */
+        .welcome-text p {
+            font-size: 22px; /* Set font size for paragraphs */
+            margin: 15px 0; /* Vertical margin for spacing */
+        }
+
+        /* Gaming Tools Button Section */
+        .button-gallery {
+            display: flex; /* Use flexbox for layout */
+            justify-content: center; /* Center the images horizontally */
+            gap: 30px; /* Space between each image */
+            margin-top: 40px; /* Add top margin to separate from above content */
+			margin-bottom: 50px;
+        }
+        /* Gaming tool images styling */
+        .button-gallery img {
+            width: 200px; /* Set width for the images */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            border-radius: 10px; /* Rounded corners for the images */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+		<img src="Images/logo.png" alt="Logo" class="logo"><!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="Overview.html">Overview</a>
+                    <ul class="dropdown">
+                        <li><a href="History.html">Gaming History</a></li>
+                        <li><a href="Impact of Gaming.html">Impact of Gaming</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gaming-tools-home.html">Gaming Tools</a>
+                    <ul class="dropdown">
+                        <li><a href="playstation-home.html">PlayStation</a></li>
+                        <li><a href="nintendo-home.html">Nintendo</a></li>
+                        <li><a href="xbox-home.html">Xbox</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Welcome Section with Overlay -->
+	<div class="welcome-container">
+		<img src="Images/home-img.jpg" alt="Welcome Image">
+		<div class="overlay"></div>
+		<div class="welcome-text">
+			<h1>Welcome to the Gaming Side</h1>
+			<p>Explore the world of gaming with PlayStation, Nintendo, and Xbox!</p>
+			<p>Whether you're a PlayStation, Nintendo, or Xbox fan, this site is your go-to resource for everything about these legendary gaming consoles. Explore their history, compare specs, check out the most popular games, and discover the pros and cons of each system.</p>
+			<p>No matter which console you prefer, gaming is all about the experience. Dive in and find out which one suits your style best!</p>
+		</div>
+	</div>
+    <section class="button-gallery">
+        <a href="playstation-home.html"><img src="Images/PlayStation/PS.png" alt="PlayStation"></a>
+        <a href="nintendo-home.html"><img src="Images/Nintendo/nintendo.png" alt="Nintendo"></a>
+        <a href="xbox-home.html"><img src="Images/Xbox/xbox.png" alt="Xbox"></a>
+    </section>
+    <footer>
+		<img src="Images/logo.png" alt="Footer Logo" class="footer-logo"><!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+		<a href="#top"><button id="topBtn"></button></a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+/* Game Section */
+		.game-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+			margin: 150px auto 70px auto;
+        }
+        .game-card {
+            background: #292929;
+            padding: 15px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .game-card:hover {
+            transform: scale(1.05);
+        }
+        .game-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .game-title {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }		

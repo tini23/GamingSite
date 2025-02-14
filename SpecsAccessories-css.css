@@ -1,0 +1,114 @@
+/* Comparison Table */
+		table {
+            margin: 50px auto 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        th, td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+        }
+		table img {
+            width: 150px;
+            height: 150px;
+            display: block;
+            margin: auto;
+        }
+		h1 {
+			font-size: 50px;
+			font-weight: bold;
+			margin-bottom: 15px; /* Reduce gap between h1 and h2 */
+			margin-top : 150px
+		}
+
+		h2 {
+			font-size: 40px;
+			font-weight: bold;
+			background-color: rgba(0, 0, 0, 0.8);
+			display: inline-block;
+		}
+		h3{
+			font-size: 30px;
+			font-weight: bold;
+		}
+		h4 {
+			font-size: 35px;
+			font-weight: bold;
+			color:black;
+			text-align: center;
+		}
+		
+		/* Pros and Cons Section */
+        .pros-cons {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .pros, .cons {
+            width: 45%;
+            padding: 15px;
+            border-radius: 10px;
+			text-align: left; /* Aligning text to the left */
+        }
+
+        .pros {
+            background-color: rgba(0, 255, 0, 0.8);
+            border-left: 5px solid lime;
+        }
+
+        .cons {
+            background-color: rgba(255, 0, 0, 0.8);
+            border-left: 5px solid red;
+        }
+
+        .pros h4, .cons h4 {
+            text-align: center;
+			margin-bottom: 10px;
+        }
+		.pros ul, .cons ul {
+			padding-left: 20px;
+		}
+
+		.pros ul li, .cons ul li {
+			margin-bottom: 8px; /* Added spacing between each point */
+		}
+
+		/* Accessories section */
+		.container {
+            max-width: 1100px;
+            margin: 80px auto;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .accessory {
+            background-color: rgba(30, 30, 30, 0.9);
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 162, 255, 0.3);
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: calc(30% - 20px);
+        }
+        .accessory:hover {
+            transform: scale(1.05);
+        }
+        .accessory img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .text {
+            padding: 10px;
+        }

@@ -1,0 +1,37 @@
+        /* Second Menu */
+        .sub-menu {
+            display: flex; /* Uses flexbox */
+            justify-content: center; /* Centers menu items */
+            background-color: rgba(200, 200, 200, 0.2); * Light grey with some transparency */
+            padding: 5px 0; /* Adds vertical padding */
+            position: fixed; /* Fixes below the main menu */
+            top: 70px; /* Positions it below the header */
+            left: 0; /* Aligns to the left */
+            width: 100%; /* Makes it full width */
+            z-index: 999; /* Ensures it appears above other content */
+        }
+
+        .sub-menu ul {
+            display: flex; /* Uses flexbox for horizontal alignment */
+            list-style: none; /* Removes bullet points */
+            gap: 50px; /* Spaces menu items */
+            padding: 0; /* Removes default padding */
+        }
+
+        .sub-menu ul li a {
+            color: white; /* Sets text color */
+            font-weight: bold; /* Makes text bold */
+            text-decoration: none; /* Removes underline */
+            font-size: 1.2rem; /* Sets font size */
+            transition: color 0.3s ease-in-out; /* Smooth color transition */
+        }
+
+		.sub-menu ul li::after {
+            content: ""; /* Creates an underline effect */
+            position: absolute; /* Positions it below text */
+            left: 0; /* Aligns to left */
+            bottom: -5px; /* Moves it slightly below text */
+            width: 0; /* Initially hidden */
+            height: 3px; /* Sets underline thickness */
+            transition: width 0.3s ease-in-out; /* Expands smoothly on hover */
+        }

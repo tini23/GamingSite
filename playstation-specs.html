@@ -1,0 +1,255 @@
+<html>
+<head>
+	<link rel="stylesheet" href="default-css.css"> <!-- External CSS -->
+	<link rel="stylesheet" href="submenu-css.css"> <!-- Sub menu External CSS -->
+	<link rel="stylesheet" href="SpecsAccessories-css.css"> <!-- Specs Accessories External CSS -->
+    <title>Playstation-Specs</title> <!-- Sets the title of the webpage -->
+    <style>
+        body {
+            background: url('Images/bg-ps.jpg') no-repeat center center fixed; /* Sets a background image and makes it fixed */
+            background-size: cover; /* Ensures the background image covers the entire screen */
+        }
+
+        /* Second Menu */
+        .sub-menu ul li:hover a {
+            color: #29C7F9; /* Changes color on hover */
+        }
+		.sub-menu ul li::after {
+            background-color: #29C7F9; /* Sets underline color */
+        }
+		
+		/* Comparison Table */
+        th {
+            background-color: #29C7F9;
+		}
+		
+		h1, h2, h3 {
+			color: #00a2ff;
+		}
+		
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Images/logo.png" alt="Logo" class="logo"> <!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Home link -->
+                <li>
+                    <a href="Overview.html">Overview</a> <!-- Overview link -->
+                    <ul class="dropdown"> <!-- Dropdown menu -->
+                        <li><a href="History.html">Gaming History</a></li>
+                        <li><a href="Impact of Gaming.html">Impact of Gaming</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gaming-tools-home.html">Gaming Tools</a> <!-- Gaming tools link -->
+                    <ul class="dropdown"> <!-- Dropdown for gaming tools -->
+                        <li><a href="playstation-home.html">PlayStation</a></li>
+                        <li><a href="nintendo-home.html">Nintendo</a></li>
+                        <li><a href="xbox-home.html">Xbox</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact-us.html">Contact Us</a></li> <!-- Contact link -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Second Menu -->
+    <nav class="sub-menu">
+        <ul>
+            <li><a href="playstation-evolution.html">Evolution</a></li> |<!-- Evolution section -->
+            <li><a href="playstation-specs.html" style="color: #29C7F9; font-weight: bold;">Specs & Accessories</a></li> | <!-- Specs section -->
+            <li><a href="playstation-games.html">Games</a></li> <!-- Games section -->
+        </ul>
+    </nav>
+	
+	<!-- Comparison Table -->
+    <h1>Specs Comparison</h1>    
+		<table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>PlayStation</th>
+                    <th>PlayStation 2</th>
+                    <th>PlayStation 3</th>
+                    <th>PlayStation 4</th>
+                    <th>PlayStation 5</th>
+                </tr>
+            </thead>
+            <tbody>
+				<tr style="background-color: rgba(0, 0, 0, 0.5);">
+                    <td>Image</td>
+                    <td><img src="Images/PlayStation/ps1.png"></td>
+                    <td><img src="Images/PlayStation/ps2.jpg"></td>
+                    <td><img src="Images/PlayStation/ps3.png"></td>
+                    <td><img src="Images/PlayStation/ps4.jpg"></td>
+                    <td><img src="Images/PlayStation/ps5.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Release Date</td>
+                    <td>December 1994</td>
+                    <td>March 2000</td>
+                    <td>November 2006</td>
+                    <td>November 2013</td>
+                    <td>November 2020</td>
+                </tr>
+                <tr>
+                    <td>Discontinued</td>
+                    <td>March 2006</td>
+                    <td>January 2013</td>
+                    <td>May 2017</td>
+                    <td>In production</td>
+                    <td>In production</td>
+                </tr>
+                <tr>
+                    <td>Dimensions (WxHxD)</td>
+                    <td>275 mm × 63.5 mm × 190 mm</td>
+                    <td>302 mm × 78 mm × 183 mm</td>
+                    <td>325 mm × 98 mm × 274 mm</td>
+                    <td>275 mm × 53 mm × 305 mm</td>
+                    <td>390 mm × 104 mm × 260 mm</td>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td>1.5 kg</td>
+                    <td>2.2 kg</td>
+                    <td>4.99 kg</td>
+                    <td>2.8 kg</td>
+                    <td>4.5 kg</td>
+                </tr>
+                <tr>
+                    <td>Storage Capacity</td>
+                    <td>Memory Card (1 MB)</td>
+                    <td>Memory Card (8 MB)</td>
+                    <td>20 GB to 500 GB HDD</td>
+                    <td>500 GB or 1 TB HDD</td>
+                    <td>825 GB SSD</td>
+                </tr>
+                <tr>
+                    <td>CPU</td>
+                    <td>MIPS R3000A</td>
+                    <td>Emotion Engine</td>
+                    <td>Cell Broadband Engine</td>
+                    <td>8-core AMD Jaguar</td>
+                    <td>8-core AMD Zen 2</td>
+                </tr>
+                <tr>
+                    <td>GPU</td>
+                    <td>Custom GPU</td>
+                    <td>Graphics Synthesizer</td>
+                    <td>RSX Reality Synthesizer</td>
+                    <td>AMD GCN Radeon</td>
+                    <td>AMD RDNA 2</td>
+                </tr>
+                <tr>
+                    <td>Memory</td>
+                    <td>2 MB RAM</td>
+                    <td>32 MB RAM</td>
+                    <td>256 MB XDR RAM, 256 MB GDDR3 VRAM</td>
+                    <td>8 GB GDDR5</td>
+                    <td>16 GB GDDR6</td>
+                </tr>
+				<tr>
+					<td>Max Resolution</td>
+					<td>480i</td>
+					<td>1080i</td>
+					<td>1080p</td>
+					<td>4K</td>
+					<td>8K (theoretical)</td>
+				</tr>
+				<tr>
+					<td>Media Format</td>
+					<td>CD-ROM</td>
+					<td>DVD-ROM</td>
+					<td>Blu-ray</td>
+					<td>Blu-ray / Digital</td>
+					<td>Ultra HD Blu-ray / Digital</td>
+				</tr>
+                <tr>
+                    <td>Backward Compatibility</td>
+                    <td>Not available</td>
+                    <td>Yes (PlayStation)</td>
+                    <td>Partial (PlayStation, PlayStation 2)</td>
+                    <td>Partial (select PlayStation 2 and PlayStation 3 titles via PlayStation Now)</td>
+                    <td>Yes (PlayStation 4)</td>
+                </tr>
+            </tbody>
+        </table>
+	
+	<!-- Pros and Cons Section -->
+    <h2> Pros & Cons </h2>
+	<div class="pros-cons">
+        <div class="pros">
+            <h4>Pros</h4>
+            <ul>
+                <li><strong>Stunning graphics:</strong> The PS5’s custom GPU offers remarkable visuals with ray tracing, making games look incredibly realistic..</li>
+                <li><strong>Lightning-fast load times:</strong> The built-in SSD drastically reduces load times, enhancing the overall gaming experience.</li>
+                <li><strong>DualSense controller:</strong> The new controller offers haptic feedback and adaptive triggers, providing a more immersive experience in games.</li>
+                <li><strong>Exclusive games:</strong> PlayStation is known for its strong lineup of exclusive titles, like Astro-Bot, Ratchet & Clank: Rift Apart, Spider-Man 2 and God Of War : Ragnarok.</li>
+                <li><strong>Backward compatibility:</strong> Most of your favorite PS4 games are playable on the PS5, ensuring a seamless transition.</li>
+            </ul>
+        </div>
+        <div class="cons">
+            <h4>Cons</h4>
+            <ul>
+                <li><strong>Storage limitations:</strong> While the SSD is fast, the 1TB storage can fill up quickly, especially with the large sizes of next-gen games. External drives are needed for extra space.</li>
+                <li><strong>No native 1440p support:</strong> While the PS5 supports 4K, it doesn’t support 1440p natively, which can be a downside for gamers with 1440p monitors.</li>
+            </ul>
+        </div>
+    </div>
+	
+	<div class="container">
+        <h2>Accessories</h2>
+        <div class="grid">
+            <div class="accessory">
+                <img src="Images/PlayStation/ps-DualSense Controller.png" alt="DualSense Controller"><!-- https://www.playstation.com/en-my/accessories/dualsense-wireless-controller/ -->
+                <div class="text">
+                    <h3>DualSense Wireless Controller</h3>
+                    <p>The new standard controller with haptic feedback and adaptive triggers.</p>
+                </div>
+            </div>
+            <div class="accessory">
+                <img src="Images/PlayStation/ps-PS5 HD Camera.png" alt="PS5 HD Camera"><!-- https://www.playstation.com/en-my/accessories/hd-camera/ -->
+                <div class="text">
+                    <h3>PS5 HD Camera</h3>
+                    <p>For streaming and capturing gameplay.</p>
+                </div>
+            </div>
+            <div class="accessory">
+                <img src="Images/PlayStation/ps-Pulse 3D Headset.png" alt="Pulse 3D Headset"><!-- https://www.playstation.com/en-my/accessories/pulse-elite-wireless-headset/ -->
+                <div class="text">
+                    <h3>Pulse 3D Wireless Headset</h3>
+                    <p>For immersive 3D audio in supported games.</p>
+                </div>
+            </div>
+            <div class="accessory">
+                <img src="Images/PlayStation/ps-Media Remote.png" alt="Media Remote"><!-- https://www.playstation.com/en-my/accessories/media-remote/ -->
+                <div class="text">
+                    <h3>Media Remote</h3>
+                    <p>For easier navigation of media apps.</p>
+                </div>
+            </div>
+            <div class="accessory">
+                <img src="Images/PlayStation/ps-DualSense Charging Station.png" alt="DualSense Charging Station"><!-- https://www.playstation.com/en-my/accessories/dualsense-wireless-controller/#charging-station -->
+                <div class="text">
+                    <h3>DualSense Charging Station</h3>
+                    <p>Convenient for charging two controllers at once.</p>
+                </div>
+            </div>
+            <div class="accessory">
+                <img src="Images/PlayStation/ps-VR2.png" alt="PlayStation VR2"><!-- https://www.playstation.com/en-my/ps-vr2/ -->
+                <div class="text">
+                    <h3>PlayStation VR2</h3>
+                    <p>Next-gen virtual reality headset with 4K HDR visuals and eye tracking.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <img src="Images/logo.png" alt="Footer Logo" class="footer-logo"> <!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+		<a href="#top"><button id="topBtn"></button></a>
+    </footer>
+</body>
+</html>

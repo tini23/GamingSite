@@ -1,0 +1,105 @@
+<html>
+<head>
+	<link rel="stylesheet" href="default-css.css"> <!-- External CSS -->
+	<link rel="stylesheet" href="submenu-css.css"> <!-- Sub menu External CSS -->
+	<link rel="stylesheet" href="game-css.css"> <!-- Game External CSS -->
+    <title>Nintendo-Games</title> <!-- Sets the title of the webpage -->
+    <style>
+        body {
+            background: url('Images/bg-nintendo.png') no-repeat center center fixed; /* Sets a background image and makes it fixed */
+            background-size: cover; /* Ensures the background image covers the entire screen */
+        }
+
+        /* Second Menu */
+        .sub-menu ul li:hover a {
+            color: #FF0000; /* Changes color on hover */
+        }
+		.sub-menu ul li::after {
+            background-color: #FF0000; /* Sets underline color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Images/logo.png" alt="Logo" class="logo"> <!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Home link -->
+                <li>
+                    <a href="Overview.html">Overview</a> <!-- Overview link -->
+                    <ul class="dropdown"> <!-- Dropdown menu -->
+                        <li><a href="History.html">Gaming History</a></li>
+                        <li><a href="Impact of Gaming.html">Impact of Gaming</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gaming-tools-home.html">Gaming Tools</a> <!-- Gaming tools link -->
+                    <ul class="dropdown"> <!-- Dropdown for gaming tools -->
+                        <li><a href="playstation-home.html">PlayStation</a></li>
+                        <li><a href="nintendo-home.html">Nintendo</a></li>
+                        <li><a href="xbox-home.html">Xbox</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact-us.html">Contact Us</a></li> <!-- Contact link -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Second Menu -->
+    <nav class="sub-menu">
+        <ul>
+            <li><a href="nintendo-evolution.html">Evolution</a></li> |<!-- Evolution section -->
+            <li><a href="nintendo-specs.html">Specs & Accessories</a></li> | <!-- Specs section -->
+            <li><a href="nintendo-games.html" style="color: #FF0000; font-weight: bold;">Games</a></li> <!-- Games section -->
+        </ul>
+    </nav>
+
+	<div class="game-container">
+        <div class="game-card">
+            <img src="Images/Nintendo/nsThe Legend of Zelda.png" alt="The Legend of Zelda: Tears of the Kingdom">
+            <div class="game-title">The Legend of Zelda: Tears of the Kingdom</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Nintendo/nsSuperMarioBrosWonder.png" alt="Super Mario Bros. Wonder">
+            <div class="game-title">Super Mario Bros. Wonder</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Nintendo/nspokemon.png" alt="Pokémon Scarlet & Violet">
+            <div class="game-title">Pokémon Scarlet & Violet</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Nintendo/nsMetroid.png" alt="Metroid Prime 4">
+            <div class="game-title">Metroid Prime 4</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Nintendo/nsSplatoon.png" alt="Splatoon 3">
+            <div class="game-title">Splatoon 3</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Nintendo/nsMarioKart.png" alt="Mario Kart 8 Deluxe">
+            <div class="game-title">Mario Kart 8 Deluxe</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Nintendo/nsAnimalCrossing.png" alt="Animal Crossing: New Horizons">
+            <div class="game-title">Animal Crossing: New Horizons</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Nintendo/nsXenoblade.png" alt="Xenoblade Chronicles 3">
+            <div class="game-title">Xenoblade Chronicles 3</div>
+        </div>
+        <div class="game-card">
+            <img src="Images/Nintendo/nsSuperSmash.png" alt="Super Smash Bros. Ultimate">
+            <div class="game-title">Super Smash Bros. Ultimate</div>
+        </div>
+		<div class="game-card">
+            <img src="Images/Nintendo/nsLuigi.png" alt="Luigi’s Mansion 3">
+            <div class="game-title">Luigi’s Mansion 3</div>
+        </div>
+    </div>
+
+    <footer>
+        <img src="Images/logo.png" alt="Footer Logo" class="footer-logo"> <!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+		<a href="#top"><button id="topBtn"></button></a>
+    </footer>
+</body>
+</html>

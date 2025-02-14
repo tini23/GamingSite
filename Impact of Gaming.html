@@ -1,0 +1,164 @@
+<html>
+<head>
+	<link rel="stylesheet" href="default-css.css"> <!-- External CSS -->
+  <title>Impact of Gaming</title>
+  <style>
+    /* Overall Page Styles */
+    body {
+            background: url('Images/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+    /* Infographic Container and Rows */
+    .infographic-container {
+		max-width: 1000px;
+		margin: 15px auto;
+		padding: 20px;
+    }
+    .infographic-title {
+		font-size: 3rem;
+		font-weight: bold;
+		text-shadow: 4px 4px 15px rgba(255, 255, 0, 1), 
+					0px 0px 10px rgba(255, 255, 255, 0.8);
+		margin-top: 8vh;
+		color: #FFFF00; /* Brighter yellow */
+		text-align: center;
+		margin-bottom: 20px;
+    }
+    .infographic-row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 20px;
+    }
+    /* Row with two cards */
+    .infographic-row.two-cards .infographic-section {
+		flex: 1;
+		min-width: 45%;
+		margin: 10px;
+    }
+    /* Row with one card */
+    .infographic-row.one-card .infographic-section {
+		flex: 1;
+		min-width: 90%;
+		margin: 10px auto;
+    }
+    .infographic-section {
+		background: rgba(0, 0, 0, 0.3);
+		border-radius: 10px;
+		padding: 20px;
+		box-sizing: border-box;
+		text-align: left;
+		display: flex;
+		align-items: center;
+    }
+    .infographic-section img {
+		width: 50px;
+		height: 50px;
+		margin-right: 15px;
+		border-radius: 10px;
+    }
+    .infographic-text {
+		flex: 1;
+    }
+    .infographic-section h2 {
+		font-size: 1.8rem;
+		margin-bottom: 10px;
+    }
+    .infographic-section p {
+		font-size: 1.2rem;
+		line-height: 1.5;
+    }
+ 
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Images/logo.png" alt="Logo" class="logo"><!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+	 <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="Overview.html">Overview</a>
+            <ul class="dropdown">
+                <li><a href="History.html">Gaming History</a></li>
+                <li><a href="Impact of Gaming.html">Impact of Gaming</a></li>
+            </ul>
+        </li>
+        <li>
+          <a href="gaming-tools-home.html">Gaming Tools</a>
+          <ul class="dropdown">
+            <li><a href="playstation-home.html">PlayStation</a></li>
+            <li><a href="nintendo-home.html">Nintendo</a></li>
+            <li><a href="xbox-home.html">Xbox</a></li>
+          </ul>
+        </li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <div class="infographic-container">
+    <div class="infographic-title">The Complex Impact of Gaming on Society</div>
+    
+    <div class="infographic-row two-cards">
+      <div class="infographic-section">
+        <img src="Images/imp1.png" alt="Cognitive Development">
+        <div class="infographic-text">
+          <h2>Cognitive Development Benefits</h2>
+          <p>Gaming enhances cognitive skills by encouraging critical thinking, problem-solving, and quick decision-making.</p>
+        </div>
+      </div>
+      <div class="infographic-section">
+        <img src="Images/imp2.png" alt="Social Interaction">
+        <div class="infographic-text">
+          <h2>Social Interaction Opportunities</h2>
+          <p>Online gaming fosters social connections by allowing players to communicate and collaborate.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="infographic-row one-card">
+      <div class="infographic-section">
+        <img src="Images/imp3.png" alt="Educational Potential">
+        <div class="infographic-text">
+          <h2>Educational Potential</h2>
+          <p>Games serve as effective educational tools by integrating elements of various subjects into gameplay.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="infographic-row two-cards">
+      <div class="infographic-section">
+        <img src="Images/imp4.png" alt="Physical Health Concerns">
+        <div class="infographic-text">
+          <h2>Physical Health Concerns</h2>
+          <p>Extended gaming sessions can lead to health issues such as eye strain and poor posture.</p>
+        </div>
+      </div>
+      <div class="infographic-section">
+        <img src="Images/imp5.png" alt="Risks of Addiction">
+        <div class="infographic-text">
+          <h2>Risks of Addiction</h2>
+          <p>Gaming can lead to addiction, where players lose track of time and neglect responsibilities.</p>
+        </div>
+      </div>
+    </div>
+
+        <div class="infographic-row one-card">
+      <div class="infographic-section">
+        <img src="Images/imp6.png" alt="Financial Implications">
+        <div class="infographic-text">
+          <h2>Financial Implications</h2>
+          <p>Gaming can be an expensive hobby due to high costs of consoles, PCs, and in-game purchases, which may lead to financial strain, especially for younger players. The prevalence of microtransactions raises ethical concerns about spending practices in gaming.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer>
+		<img src="Images/logo.png" alt="Footer Logo" class="footer-logo"><!-- https://www.flaticon.com/free-icon/gamepad_9870291 -->
+		<a href="#top"><button id="topBtn"></button></a>
+    </footer>
+</body>
+</html>
